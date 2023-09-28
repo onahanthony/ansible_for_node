@@ -1,0 +1,5 @@
+- name: Change to the desired directory
+  shell: cd "{{js_directory}}" && npm i
+
+- name: start the service
+  command: systemctl start lotr.service

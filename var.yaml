@@ -1,0 +1,12 @@
+ansible_python_interpreter: /usr/bin/python3
+new_root_password: Anthony80!
+root_password: Anthony80!
+your_database_name: nextcloud
+database_name: lotr
+service_file: /root/node/files/lotr.service
+local_env_file: /root/node/files/app.env
+env_file: /root/lotr/app.env
+js_directory: /root/lotr
+local_lotr_file: /root/node/files/lotr.sql
+remote_lotr_directory: /root
+remote_lotr_file: /root/lotr.sql
